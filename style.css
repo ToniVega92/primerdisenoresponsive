@@ -1,0 +1,47 @@
+*{
+   margin:0;
+padding:0;
+}
+
+body {
+    
+    background: #525049;
+    font-family: Arial;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    
+}
+
+header {
+    background: #EB4A33;
+    margin: 20px 0;
+}
+
+header h1 {
+    color: azure;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.centro {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box; /* box-sizing permite que poniéndole un width con padding este ult
+    imo no aumente el 80% , lo mantiene y reduce el contenido que está dentro */
+    background: #dec925;
+    float:left;
+}
+
+.lateral {
+    width: 20%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #ccc;
+    float:left;
+}
+
