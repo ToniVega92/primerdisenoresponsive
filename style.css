@@ -10,7 +10,7 @@ body {
 }
 
 .contenedor {
-    width: 100%;
+    width: 80%;
     max-width: 1000px;
     margin:0 auto;
     
@@ -43,5 +43,23 @@ header h1 {
     box-sizing: border-box;
     background: #ccc;
     float:left;
+}
+
+@media screen and (max-width: 800px) {
+    .centro {
+        width: 100%;
+    }
+    
+    .lateral {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .contenedor {
+        width: 100%;
+    }
+    
 }
 
